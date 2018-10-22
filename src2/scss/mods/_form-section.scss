@@ -1,0 +1,131 @@
+
+.page-title {
+  padding-bottom:30px;
+}
+
+
+.form-section {
+
+  padding-top:0px;
+
+  &.checkout {
+    padding-bottom:0px;
+    margin-bottom:70px;
+
+  }
+
+
+  .container {
+    background: #F0F2F2 url(../images/pattern-white.png) no-repeat right bottom !important;
+    padding: 40px 20px;
+
+    @media (max-width:1200px) {
+      width: calc(100% - 30px);
+      max-width:100%;
+    }
+
+
+    h2 {
+      color:$brown;
+      font-size:32px;
+      font-weight:300;
+      width:730px;
+      margin: 0 auto 20px;
+
+      @media (max-width:860px) {
+        width: 100%;
+      }
+
+    }
+
+  }
+
+  form {
+
+    width: 730px;
+    margin: 0 auto;
+
+    @media (max-width:820px) {
+     width: 100%;
+    }
+
+
+  }
+
+
+  .col-md-4 {
+
+    label {
+      color:$brown;
+      font-size:13px;
+      margin-bottom:5px;
+
+      @media (max-width:768px) {
+       margin-top:20px;
+
+      }
+
+      span {
+        color:red;
+      }
+
+    }
+
+    input {
+      width: 100%;
+      height:35px;
+      line-height:35px;
+      border: none;
+      padding: 0px 10px;
+      color:$brown;
+      font-weight:300;
+
+      &::placeholder {
+        color:#D9DBDB;
+        font-size:13px;
+      }
+
+    }
+
+  }
+
+  .row.second {
+
+    margin-top:30px;
+
+    button {
+
+      border-radius:0px;
+      background:$brown;
+      color:$white;
+      width:100%;
+      height:35px;
+      line-height:35px;
+      padding:0;
+      border:none;
+      font-weight:300;
+
+    }
+
+    .form-check {
+
+      margin-top:5px;
+
+      @media (max-width:768px) {
+       margin-top:20px;
+      }
+
+      label {
+        color:$brown;
+        margin-left:5px;
+        font-size: 14px;
+        margin-top:11px;
+      }
+
+    }
+
+
+  }
+
+
+}

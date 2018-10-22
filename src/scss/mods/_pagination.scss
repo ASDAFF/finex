@@ -1,0 +1,30 @@
+.pagination {
+  display: inline-block;
+  margin: 20px auto;
+
+  li {
+    display: inline-block;
+
+    a {
+      color: $brown;
+      float: left;
+      padding: 4px 12px;
+      text-decoration: none;
+      border: 2px solid transparent;
+
+      &.active {
+        border: 2px solid $brown;
+      }
+
+      &:hover:not(.active) {
+        border: 2px solid #D9DBDB;
+      }
+
+    }
+
+  }
+
+}
+
+
+

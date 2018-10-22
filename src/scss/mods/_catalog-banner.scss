@@ -1,0 +1,20 @@
+
+.catalog-banner {
+
+  height:465px;
+  background-size: cover !important;
+
+  @media (max-width: 768px) {
+
+    height: 320px;
+
+  }
+
+  @media (max-width: 580px) {
+
+    height: 150px;
+
+  }
+
+
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="13px" height="13px" viewBox="0 0 13 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Combined Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Catalog_item" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-750.000000, -751.000000)">
+        <g id="Group-8" transform="translate(511.000000, 632.000000)" fill="#8D7045">
+            <g id="Group-15" transform="translate(0.000000, 27.000000)">
+                <path d="M242.784836,94.4 C243.018604,93.0377352 244.19062,92 245.598485,92 C247.014786,92 248.192404,92.9694243 248.416235,94.4 L252,94.4 L252,104.6 L239,104.6 L239,94.4 L242.784836,94.4 Z M243.80102,94.4 L247.405623,94.4 C247.185306,93.5657964 246.426722,93 245.598485,93 C244.781966,93 244.033144,93.618637 243.80102,94.4 Z M239.984848,103.6 L251.015152,103.6 L251.015152,95.4 L239.984848,95.4 L239.984848,103.6 Z M246,99 L248,99 L248,100 L246,100 L246,102 L245,102 L245,100 L243,100 L243,99 L245,99 L245,97 L246,97 L246,99 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

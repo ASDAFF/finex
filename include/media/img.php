@@ -1,0 +1,1 @@
+<img src="/src/images/top-banner-media.jpg" alt="img-fluid" class="img-fluid">

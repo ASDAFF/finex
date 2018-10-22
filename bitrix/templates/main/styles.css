@@ -1,0 +1,12 @@
+h2{
+    text-transform: uppercase;
+}
+ a, a:hover{
+    color: #8D7045;
+}
+a.brown:hover{
+    color: #FFF;
+}
+.three-sections .section-heading{
+    margin-top: 0px;
+}

@@ -1,0 +1,106 @@
+.three-sections {
+
+  padding-bottom:0px;
+  padding-top:0px;
+  position: relative;
+
+
+  @media(max-width: 768px) {
+
+    padding-bottom:50px;
+
+  }
+
+
+  .row {
+    margin:0;
+    margin-top:30px;
+  }
+
+  .col-md-4 {
+    background-size:cover!important;
+    padding: 70px 50px 100px 50px;
+    padding-bottom:100px;
+    position: relative;
+
+
+
+
+
+
+
+      &.first {
+      background:url(../images/threes1.png) no-repeat;
+    }
+
+    &.second {
+      background:url(../images/threes2.png) no-repeat;
+    }
+
+    &.third {
+      background:url(../images/threes3.png) no-repeat;
+    }
+
+    h3 {
+      font-size:22px;
+      color:$white;
+    }
+
+    p {
+      font-size:20px;
+      color:$white;
+      font-weight:300;
+      margin-top:22px;
+    }
+
+    a {
+      position: absolute;
+      bottom: 30px;
+      color:$white;
+      background:$brown;
+      display: inline-block;
+      height:35px;
+      line-height: 35px;
+      width:156px;
+      text-align:center;
+    }
+
+  }
+
+
+  .threes-nav-dots {
+
+    display: block!important;
+    position: absolute;
+    bottom:-20px;
+    margin: 0 auto;
+    width: 100%;
+    text-align:center;
+    left:0px;
+
+    ul {
+      list-style: none;
+      padding-left: 0px;
+
+
+      li {
+        display: inline-block;
+        margin: 0px 5px;
+        width: 14px;
+        height: 14px;
+        text-indent: -9999%;
+        border: 2px solid #D9DBDB;
+
+        &.slick-active {
+          border: 2px solid $brown;
+          background: $brown;
+        }
+
+      }
+
+    }
+
+
+  }
+
+}

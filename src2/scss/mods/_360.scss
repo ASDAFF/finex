@@ -1,0 +1,121 @@
+.s360 {
+
+  padding-bottom:0px;
+
+.row.cont {
+
+  border-top:10px solid $brown;
+  border-bottom:10px solid $brown;
+  margin:20px 0 0 0;
+
+  .col-md-8 {
+    height: 520px;
+    padding:0;
+    background-size: cover !important;
+    position: relative;
+
+    a {
+      display: block;
+      width: 122px;
+      height: 127px;
+      background: url(../images/360-trigger.png) no-repeat center;
+      position: absolute;
+      left: 50%;
+      top:50%;
+      margin-left: -61px;
+      margin-top:-64px;
+      color:#fff;
+    }
+
+    @media (max-width: 991px) {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+
+    @media (max-width: 768px) {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+
+
+  }
+  .col-md-4 {
+    padding:0;
+    background: url(../images/pattern-dark.png) repeat left top;
+    color:$white;
+    font-size:18px;
+    font-weight:300;
+
+    @media (max-width: 991px) {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+
+    @media (max-width: 768px) {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+
+    .table {
+      display: table;
+      height:100%;
+    }
+
+    span {
+      display: table-cell;
+      width:100%;
+      height:100%;
+      vertical-align:middle;
+      padding-left:40px;
+
+      @media (max-width: 768px) {
+        text-align:center;
+        padding-left:0px;
+        padding-top:30px;
+        padding-bottom:30px;
+
+        a {
+          margin: 30px auto 0px;
+          width: 90%;
+
+        }
+
+      }
+
+    }
+
+
+    h3 {
+      font-size:22px;
+    }
+
+    p {
+      margin-top:60px;
+    }
+
+    a {
+      margin-top:60px;
+      display: block;
+      background: $brown;
+      color:$white;
+      height:35px;
+      line-height:35px;
+      width:156px;
+      text-align:center;
+      box-shadow: 0px 2px 4px rgba(0,0,0,0.5);
+      font-size:16px;
+    }
+
+  }
+
+}
+
+}

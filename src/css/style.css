@@ -1,0 +1,975 @@
+
+
+.custom_pages input::-webkit-input-placeholder {color:#d9dbdb;}
+.custom_pages input::-moz-placeholder          {color:#d9dbdb;}/* Firefox 19+ */
+.custom_pages input:-moz-placeholder           {color:#d9dbdb;}/* Firefox 18- */
+.custom_pages input:-ms-input-placeholder      {color:#d9dbdb;}
+
+.custom_pages {
+    font-family: "futuraBookC";
+    font-size: 18px;
+    color: #8d7045;
+}
+
+.custom_pages p,
+.contact .single-section .section-heading p,
+.single-section .section-heading p {
+    font-size: 21px;
+    font-family: "futuraBookC";
+    line-height: 1.33;
+}
+
+.persons h3,
+.form1 h3 {
+    font-family: "FuturaPTDemi";
+}
+
+.custom_pages h2 {
+    font-family: "FuturaPTDemi" !important;
+    font-size: 30px;
+    line-height: 1.33;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.custom_pages h3 {
+    font-family: "FuturaPTDemi" !important;
+    font-size: 30px;
+    line-height: 1.33;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.single-section .section-heading h2,
+.single-section .section-heading h2 {
+    font-family: "FuturaPTDemi" !important;
+}
+
+.button-bar_bg {
+    background: transparent;
+}
+
+.about_desinger {
+    padding: 100px 0 0px;
+}
+
+.about_developer {
+    padding: 100px 0 0 0;
+}
+
+.about_developer h2,
+.about_desinger h2 {
+    margin-bottom: 35px;
+}
+
+.about_desinger_text {
+    line-height:1.33;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.about_desinger_text big {
+    display: block;
+    font-size: 22px;
+}
+
+.about_desinger_text big  a {
+    color: #444;
+}
+
+.about_desinger_item .img_box {
+    height: 70px;
+    margin-bottom: 5px;
+}
+.about_desinger_item_left{
+    margin-left: 70px;
+}
+.about_desinger_item_right{
+    margin-right: 90px;
+}
+
+@media (max-width: 768px) {
+    .about_desinger_item_left{
+        margin-left: 0px;
+    }
+    .about_desinger_item_right{
+        margin-right: 0px;
+    }
+}
+.row_down {
+    margin-bottom: 25px;
+}
+
+.form_registration {
+    max-width: 740px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 45px 10px 45px 93px;
+    background: url(../images/footer.png) right bottom no-repeat, #f0f2f2;
+}
+
+.form_registration h3 {
+    font-family: "FuturaPTDemi";
+    font-size: 22px;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.form_registration_inset {
+    max-width: 410px;
+    width: 100%;
+}
+
+.form_registration_row {
+    margin-bottom: 15px;
+}
+
+.custom_pages label {
+    font-family: "futuraBookC";
+    font-size: 15px;
+    margin-bottom: 3px; 
+}
+
+.custom_pages input {
+    font-size: 13px;
+    width: 100%;
+    display: inline-block;
+    background: #fff;
+    border:none;
+    outline: none;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 15px;
+}
+
+.checkbox_label input {
+    display: none;
+}
+
+.checkbox_label > span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.checkbox_box {
+    width: 16px;
+    height: 16px;
+    background: #fff;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.checkbox_label input:checked + span.checkbox_box {
+    background: #8d7045;
+}
+
+.custom_pages .form_registration  button {
+    border: none;
+    outline: none;
+    font-family: "FuturaPTDemi";
+    background-color: #8d7045;
+    color: #ffffff;
+    cursor: pointer;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.custom_pages .form_registration button:hover {
+    opacity: 0.8;;
+}
+
+.custom_pages  .form_registration button {
+    font-size: 11px;
+    text-transform: uppercase;
+    height: 35px;
+    line-height: 35px;
+    letter-spacing: 0.6px;
+    text-align: center;
+    width: 200px;
+}
+
+.about_developer_wrapper {
+    padding: 0 0 0 180px;
+    margin-bottom: 25px;
+}
+
+.about_developer_wrapper big {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.about_developer .form_registration {
+    margin-left: 0;
+}
+
+.custom_pages .upload-photos input {
+   display: none;
+}
+
+.upload-photos {
+    width: 150px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border: solid 1px #8d7045;
+    background: transparent;
+}
+
+.about_developer_pdf a {
+    color: #8d7045;
+    font-size: 18px;
+    line-height: 1.22;
+}
+
+.about_developer_pdf a img,
+.about_developer_pdf a > span {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.about_developer_pdf {
+    margin-bottom: 30px;
+}
+
+.about_developer_pdf a:hover{
+    text-decoration: none;
+    color:#444;
+}
+
+.about_developer_pdf a img {
+    margin-right: 10px;
+}
+
+.about_developer_pdf a > span {
+    width: calc(100% - 55px);
+}
+
+.about_developer_pdf a > span > span {
+    display: block;
+    color: #abb1b1;
+
+}
+
+.modal-backdrop {
+    background-color: rgba(48, 34, 23, 0.9);
+}
+
+.modal-backdrop.show {
+    opacity: 1;
+}
+
+.modal_project .close  {
+    position: absolute;
+    left: 50%;
+    right: 0;
+    top: -65px;
+    margin-left: -16px;
+    text-align: center;
+    opacity: 1;
+}
+
+.modal_project .close span{
+    font-size: 60px;
+    color:#fff;
+}
+
+.modal_project .modal-content {
+    background: transparent;
+}
+
+.modal_project .modal-body {
+    padding: 0;
+    background: transparent;
+}
+
+.modal_project_img + p {
+    font-size: 12px;
+    color: #abb1b1;
+    padding: 10px 0 20px;
+    margin: 0;
+}
+
+.modal_project_img  {
+    position: relative;
+    z-index: 0;;
+}
+
+.modal_project_img .arrows {
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+}
+
+.arrows_right {
+    right: 20px;
+}
+
+.arrows_left {
+    left: 20px;
+}
+
+.modal_project_description {
+    color: #fff;
+}
+
+.modal_project_description > span {
+   display: block;
+   float: left;
+}
+
+.modal_project_description > span:first-child {
+    color: #fff;
+    font-size: 52px;
+    width: 20%;
+}
+
+.modal_project_description > span:first-child sup {
+    font-size: 18px;
+    top: -30px;
+}
+
+.modal_project_description > span:last-child {
+    font-size: 18px;
+    line-height: 1.33;
+    width: 80%;
+}
+
+.gallery_section {
+    padding: 60px 0;
+}
+
+.gallery_section h2 {
+    margin-bottom: 35px;
+}
+
+.gallery_text {
+    padding: 0 0 0 180px;
+    margin-bottom: 65px;
+}
+
+.gal_project {
+    display: block;
+}
+
+.gal_project img {
+    display: block;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 255px;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+
+.media_section h2 {
+    margin-bottom: 45px;
+}
+
+.media_section h3 {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 45px 45px 0;
+}
+
+.media_section h3 a {
+    font-size: 22px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #8d7045;
+}
+
+
+.media_section h3.active a{
+    color: #444;
+}
+
+.media_section h3:last-child {
+    margin-right: 0;
+}
+
+.media_section {
+    padding: 60px 0 0 0;
+}
+
+
+.media_section_item,
+.media_section_item_news {
+    background-color: #f0f2f2;
+    margin-bottom: 30px;    min-height: 250px;
+}
+
+.media_section_item > div {
+    float: left;
+}
+
+.media_section_text {
+    padding: 23px 20px;
+    line-height:1.1;
+}
+
+.media_section_video {
+    width: 55%;
+}
+
+.media_section_video iframe{
+    max-width:100%;
+    height: auto;
+}
+.media_section_text {
+    width: 45%;
+}
+
+.media_section_text h5 {
+    font-size: 18px;
+    line-height: 1.22;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.media_section_text p {
+    margin: 0;
+    font-size: 12px;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.media_section_item_news {
+    padding: 25px 30px;
+}
+
+.media_section_item_news img,
+.media_section_item_news .media_section_item_news_text{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.media_section_item_news img {
+    display: inline-block;
+    margin-right: 15px;
+    width: 140px;
+    height: 180px;
+    -o-object-fit: cover;
+       object-fit: cover;       
+}
+
+.media_section_item_news_text {
+    width: calc(100% - 160px);
+}
+
+.media_section_item_news_text h5 {
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.5px;
+    margin-bottom: 3px;
+    text-transform: uppercase;
+}
+
+.media_section_item_news_date,
+.media_section_item_news_des {
+    font-size: 12px;
+    line-height: 1.33;
+}
+
+.media_section_item_news_date {
+    line-height: 12px;
+    margin-bottom: 6px;
+}
+
+.media_section_item_news_text  h6 {
+    line-height: 1.11;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.media_section_item_news_link {
+    width: 170px;
+    height: 35px;
+    background-color: #8d7045;
+    line-height: 35px;
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 11px;
+    text-align: center;
+    display: block;
+}
+
+.media_section_item_news_link:hover {
+    color:#fff;
+}
+
+p.about_bank {
+    padding-top: 25px;
+    font-size: 13px;
+    color: #abb1b1;
+    line-height: 1.31;
+}
+
+.custom_row label {
+    min-height: 20px;
+}
+
+p.about_desinger_text {
+    font-size: 21px;
+    line-height: 1.22;
+    font-family: "futuraBookC";
+    margin-bottom: 35px;
+}
+
+.custom_pages_ins .contact1 h3,
+.custom_pages_ins .table h3 {
+    font-family: "FuturaPTDemi";
+}
+
+.custom_pages_ins .table h3 {
+    font-size: 21px;
+    line-height: 1.33;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+}
+
+.custom_pages_ins .contact6 {
+    font-family: "futuraBookC";
+}
+
+.custom_pages_ins .contact6 p {
+    margin: 0;
+}
+
+.custom_pages_ins .contact6_wrapper {
+    margin-bottom: 45px;
+}
+
+.custom_pages_ins .contact6 h4 {
+    font-family: "FuturaPTDemi";
+    font-size: 22px;
+    line-height: 1.78;
+}
+
+.custom_pages_ins .contact5 h3,
+.custom_pages_ins .map_text h2 {
+    font-family: "FuturaPTDemi";
+    font-size: 21px;
+}
+
+.custom_pages_ins .contact5 h4,
+.custom_pages_ins .map_text h3 {
+    font-family: "FuturaPTDemi";
+    font-size: 15px;
+    line-height: 1.33;
+}
+
+.map_text {
+    padding-left: 24px;
+}
+
+.map_text h2 {
+    text-align: left;
+}
+
+.modal_project .modal-body.modal_body_contact {
+    background: #fff;
+}
+
+.map_wr  {
+    overflow: hidden;
+}
+.map_wr img {
+    width: 100%;
+    height: auto;
+}
+
+.map_modal {
+    display: block;
+    font-size: 11px;
+    text-transform: uppercase;
+    height: 35px;
+    line-height: 35px;
+    letter-spacing: 0.6px;
+    text-align: center;
+    width: 200px;
+    font-family: "FuturaPTDemi";
+    background-color: #8d7045;
+    color: #ffffff;
+    cursor: pointer;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+#contact_modal .modal-dialog {
+    max-width: 70%;
+    margin: 1.75rem auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.map_modal:hover {
+    color:#fff;
+}
+
+.custom_pages_ins .contactItem1,
+.custom_pages_ins .contactItem2 {
+    min-height: 308px;
+}
+
+.custom_pages_ins .contactItem1 {
+    padding-right: 0;
+}
+
+.custom_pages_ins .contactItem2 {
+    padding-left: 0;
+}
+
+.custom_pages_ins .contactItem1 img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+
+.custom_pages_ins .contacts5 {
+    padding-left: 20px;
+}
+
+.custom_pages_ins .form1 button,
+.custom_pages_ins .three-sections .col-md-4 a {
+    font-family: "futuraBookC";
+}
+
+.custom_pages_ins.custom_pages .three-sections .col-md-4 {
+    background-size: cover !important;
+    padding: 0 15px;
+    position: relative;
+}
+
+
+
+.custom_pages_ins.custom_pages .oneItem {
+    margin: 0;
+    height: 100%;
+    margin-bottom: 20px;
+    padding: 60px 20px 50px 30px
+}
+
+.custom_pages_ins .three-sections .col-md-4 {
+    margin-bottom: 20px;
+}
+
+.custom_pages_ins .three-sections .first,
+.custom_pages_ins .three-sections .second, 
+.custom_pages_ins .three-sections .third {
+    background-size: cover;
+}
+
+.checkout.form-section .row button {
+    width: 230px;
+    border:none;
+    outline:none;
+    text-transform: uppercase;
+    font-family: "futuraBookC";
+    cursor: pointer;
+    line-height: 39px;
+}
+
+.custom_pages_ins .three-sections .col-md-4 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.33%;
+            flex: 0 0 33.33%;
+}
+
+.custom_pages_ins  .three-sections .first {
+    background: url(../images/threes1.png) no-repeat;
+}
+
+.custom_pages_ins  .three-sections .second {
+    background: url(../images/threes2.png) no-repeat;
+}
+
+.custom_pages_ins  .three-sections .third {
+    background: url(../images/threes3.png) no-repeat;
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+	.about_developer_wrapper {
+        padding: 0 ;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+
+    .about_developer_wrapper p {
+        text-align: center;
+    }
+    .about_developer .form_registration {
+        margin-bottom: 20px;
+    }
+
+    .gallery_text {
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+    .custom_pages_ins .contacts5 {
+        padding: 0;
+        text-align: center;
+    }
+
+    .map_modal {
+        margin: 0 auto;
+    }
+
+    .custom_pages_ins .contactItem {
+        -webkit-box-flex: 0;
+            -ms-flex: none;
+                flex: none;
+    }
+
+    .custom_pages_ins .three-sections .col-md-4 h3 {
+        font-size: 15px;
+    }
+
+    .custom_pages_ins .three-sections .col-md-4 p {
+        font-size: 16px;
+    }
+
+    .custom_pages_ins .oneItem {
+        padding: 60px 15px 50px 15px;
+    }
+
+    .custom_pages_ins .three-sections .col-md-4 {
+        -webkit-box-flex: 0;
+            -ms-flex: none;
+                flex: none;
+        width: 100%;
+    }
+
+    .custom_pages_ins .newSection {
+        padding: 0;
+    }
+
+    .custom_pages_ins .three-sections .oneItem {
+        max-width: 320px;
+        width: 100%;
+        min-height: 320px;
+        margin: 0 auto;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+	.form_registration {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .checkbox_label > span:last-child {
+        width: calc(100% - 35px);
+        vertical-align: top;
+    }
+
+    .about_developer {
+        padding:30px 0;
+    }
+
+    .custom_pages h2 {
+        margin-bottom: 15px;
+    }
+
+    .media_section  h3 {
+        margin-right: 15px;
+    }
+
+    .modal_project_description > span:nth-child(n) {
+        display: block;
+        float: none;
+        width: 100%;
+    }
+
+    .img_box img{
+        margin: 0 auto;
+    }
+
+    .about_desinger .mobile-only {
+        margin-bottom: 40px;
+    }
+
+    .custom_pages_ins .contactItem {
+        overflow: hidden;
+        margin-bottom: 20px;
+    }
+    
+    .custom_pages_ins .contactItem,
+    .custom_pages_ins .contactItem1,
+    .custom_pages_ins .contactItem2 {
+       padding:  0;
+    }
+
+    .custom_pages_ins .contactItem1, 
+    .custom_pages_ins .contactItem2 {
+        min-height: auto;
+    }
+
+    .custom_pages_ins .contactItem2 {
+        padding: 20px 0;
+    }
+
+    .custom_pages_ins .newSection {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .custom_pages_ins .contactItem1 img {
+        width: 100%;
+        height:230px;
+    }
+
+    .consult,
+    .single-section .section-heading {
+        margin:0 ;
+    }
+
+    .single-section .section-heading h2 {
+        font-size: 22px;
+    }
+
+    .contact .single-section .section-heading p {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #contact_modal .modal-dialog {
+        max-width: 90%;
+    }
+
+    .map_text {
+        padding: 15px 0 0 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .map_text h2 {
+        text-align: center;
+    }
+
+    .custom_pages_ins .oneItem {
+        position: relative;
+    }
+
+    .custom_pages_ins .three-sections .col-md-4 a {
+        width: 80%;
+    }
+
+    .custom_pages_ins .oneItem {
+        padding: 10px !important;
+    }
+
+
+}
+
+@media (max-width: 660px){
+    .custom_pages_ins .oneItem {
+        padding: 10px;
+    }
+
+    .three-sections .col-md-4 a {
+        max-width: 70%;
+    }
+}	
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .form_registration_wrapper {
+       padding: 0;
+    }
+
+    .about_developer .form_registration_wrapper {
+        margin: 0 -15px;
+    }
+
+    .custom_pages .form_registration button {
+        width: 100%;
+    }
+
+    .media_section_item > div {
+        float: none;
+        width: 100%;
+    }
+    .media_section_video iframe{
+        min-width: 100%;
+    }
+    .media_section  h3:last-child {
+        margin-right: 0;
+    }
+
+    .media_section h3 a {
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .media_section_item_news {
+        padding: 25px 13px;
+    }
+
+    .media_section_item_news img {
+        width: 80px;
+        height: auto;
+    }
+
+    .media_section_item_news_text {
+        width: calc(100% - 100px);
+    }
+
+    .media_section_item_news_link {
+        width: 140px;
+    }
+    
+    .media_section_item_news_text h6 {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 576px){
+    .modal_project  .modal-dialog {
+        max-width: 800px;
+        margin: 0 auto
+    }
+}
+
+.navbar a.active{
+    background-color: #f0f2f2;
+}
+@media (max-width: 1024px){
+    .navbar a.active{
+        background-color: transparent;/*#8D7045;*/
+    }
+    .list .col-md-3 .inner .info .title, .list .col-md-4 .inner .info .title {
+        font-size: 12px; max-height: 50px;min-height: 50px;overflow: hidden;}
+    .list .col-md-3 .inner .info .title, .list .col-md-4 .inner .info  .description{
+        font-size: 12px;min-height: 30px;
+    }.list .col-md-3 .inner .info .title, .list .col-md-4 .inner .info {
+             min-height: 140px;
+    }
+
+}
+.about_pages .single-section .section-heading{
+    text-align: left !important;
+}
+.banner_main img{
+
+    max-width: 100%;
+    height: auto;
+}

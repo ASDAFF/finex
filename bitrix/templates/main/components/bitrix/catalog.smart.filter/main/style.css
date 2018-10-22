@@ -1,0 +1,80 @@
+
+.bx-filter .bx-filter-popup-result {
+    font-size: 13px;
+    font-weight: normal;
+    position: absolute;
+    z-index: 915;
+    display: none;
+    line-height: normal;
+    margin-top: -7px;
+    margin-left: 10px;
+    padding: 0 10px;
+    white-space: nowrap;
+    color: #3f3f3f;
+    min-height: 37px;
+    line-height: 18px;
+    border-style: solid;
+    border: 1px solid #C6DCE7;
+}
+.bx-filter .bx-filter-popup-result.left {
+    border-width: 2px 10px 2px 2px;
+    -webkit-border-image: url(images/result_popup_left.png) 4 20 4 4 repeat;
+    -moz-border-image: url(images/result_popup_left.png) 4 20 4 4 repeat;
+    -o-border-image: url(images/result_popup_left.png) 4 20 4 4 repeat;
+    border-image: url(images/result_popup_left.png) 4 20 4 4 fill repeat;
+}
+.bx-filter .bx-filter-popup-result.right {
+    border-width: 2px 2px 2px 10px;
+    -webkit-border-image: url(images/result_popup_right.png) 4 4 4 20 repeat;
+    -moz-border-image: url(images/result_popup_right.png) 4 4 4 20 repeat;
+    -o-border-image: url(images/result_popup_right.png) 4 4 4 20 repeat;
+    border-image: url(images/result_popup_right.png) 4 4 4 20 fill repeat;
+}
+
+.bx-filter .bx-filter-popup-result.right {
+    left: 97%;
+}
+.bx-filter .bx-filter-popup-result.left {
+    right:97%;
+}
+.bx-filter-horizontal .bx-filter-popup-result{
+    display: inline-block;
+    position: relative;
+    left: auto;
+    right: auto;
+    bottom: -7px;
+}
+.bx-filter .bx-filter-popup-result a {
+    color: #8D7045;
+    line-height: 10px;
+}
+.bx-filter .bx-filter-popup-result a:hover {
+    text-decoration: none;
+}
+.bx-filter .bx-filter-popup-result-close {
+    display: none;
+}
+@media (max-width: 767px) {
+    .bx-touch .bx-filter .bx-filter-popup-result {
+        font-size: 12px;
+        line-height: 14px;
+        position: fixed !important;
+        z-index: 1001;
+        top: auto !important;
+        right: 0 !important;
+        bottom: 0 !important;
+        left: 0 !important;
+        margin-top: 0;
+        margin-left: 0;
+        width: auto;
+        height: auto;
+        padding: 10px;
+        border-radius: 2px;
+        border: 1px solid #c6dae7;
+        background: rgba(255,255,255,.9);
+    }
+    .bx-touch .bx-filter .bx-filter-popup-result br{display: none;}
+    .bx-filter .bx-filter-popup-result .arrow {
+        display: none;
+    }
+}
