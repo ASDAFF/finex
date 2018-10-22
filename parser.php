@@ -177,7 +177,7 @@ if (($handle = fopen($filename, "r")) !== FALSE) {
         }
         $data1=trim($data[10]);
         if(in_array($data1,$uf_8s)){
-            $uf_8=$uf_s8[$data1];  
+            $uf_8=$uf_s8[$data1];
         }else{
             $arFields =['UF_XML_ID'=> "'".$data1. "'",'UF_NAME'=> "'".$data1. "'",];
             $uf_8 = $DB->Insert("type8", $arFields, $err_mess.__LINE__);

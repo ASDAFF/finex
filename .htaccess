@@ -1,11 +1,14 @@
 Options -Indexes 
 ErrorDocument 404 /404.php
 
-<IfModule mod_php5.c>
-  php_flag session.use_trans_sid off
-  #php_value display_errors 1
-  #php_value mbstring.internal_encoding UTF-8
-</IfModule>
+php_value mbstring.internal_encoding UTF-8
+php_value mbstring.func_overload 2
+php_value max_input_vars 10000
+php_value pcre.recursion_limit 1000
+php_flag opcache.enable On
+php_flag display_errors on
+php_value error_reporting -1
+
 
 <IfModule mod_rewrite.c>
   Options +FollowSymLinks

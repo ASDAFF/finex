@@ -1,6 +1,8 @@
 .DS_Store
 Thumbs.db
 *.sql
+*.gz
+*.gz.*
 .gitignore
 /.idea/
 /sitemap*.xml
